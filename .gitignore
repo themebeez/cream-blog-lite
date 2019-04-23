@@ -10,7 +10,12 @@ wp-content/uploads/
 wp-content/mu-plugins/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
+/node_modules/
 
+gulpfile.js
+Gruntfile.js
+package.json
+package-lock.json
 /.htaccess
 /license.txt
 /readme.html
