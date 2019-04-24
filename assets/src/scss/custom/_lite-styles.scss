@@ -25,22 +25,22 @@ h6 {
     font-family: $secondary_font;
     text-transform:inherit;
     font-weight:bold;
-    line-height:1.1;
+    line-height:1.2;
 }
 
 h1 {
 
-    font-size: 52px;
+    font-size: 46px;
 }
 
 h2 {
 
-    font-size: 44px;
+    font-size: 42px;
 }
 
 h3 {
 
-    font-size: 38px;
+    font-size: 36px;
 }
 
 h4 {
@@ -50,21 +50,115 @@ h4 {
 
 h5 {
 
-    font-size: 28px;
+    font-size: 26px;
 }
 
 h6 {
 
-    font-size: 24px;
+    font-size: 22px;
 }
 
+
+// Font family third 
+
+.metas-list li span, 
+.metas-list li a,
+.cb-post-widget .metas .metas-list li span, 
+.cb-post-widget .metas .metas-list li a {
+
+    font-family:$third_font; // Pacifico
+    text-transform:inherit;
+    color:$primary_color;
+}
+
+.metas-list li span, 
+.metas-list li a,
+.cb-post-widget .metas .metas-list li span, 
+.cb-post-widget .metas .metas-list li a {
+
+    font-size: 15px;
+}
+
+ul.post-categories li a {
+
+    font-size: 12px;
+}
+
+a.btn-general,
+.main-navigation>ul>li>a,
+.cb-topfooter .social-icons-list li a {
+
+    font-size: 13px;
+}
+
+a.btn-general {
+
+    font-weight:600;
+}
+
+
 /*
-***************************************************************
-*
-* Carousel
-*
-***************************************************************
+====================================
+=
+= extra
+=
+==========================
 */
+
+
+.metas-list li.posted-date::before {
+
+    display:none;
+}
+
+.metas-list li.posted-date {
+
+    padding-left: 5px;
+}
+
+.thumb img {
+    
+    transition-duration: 0.6s;
+}
+
+.thumb:hover img {
+    
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+}
+
+
+/*
+====================================
+=
+= Header
+=
+==========================
+*/
+
+
+.main-navigation>ul>li>a {
+
+    font-weight:500;
+}
+
+.main-navigation ul li .sub-menu li a, 
+.main-navigation ul li .children li a {
+
+    text-transform:inherit;
+    font-weight:400;
+    font-size: 15px;
+}
+
+
+/*
+====================================
+=
+= Slider / banner
+=
+==========================
+*/
+
 #cb-banner-style-9 {
     
     position: relative;
@@ -148,30 +242,13 @@ h6 {
 
 
 /*
-***************************************************************
-*
-* Post Thumbnail
-*
-***************************************************************
+====================================
+=
+= Sidebar
+=
+==========================
 */
-.thumb img {
-    
-    transition-duration: 0.6s;
-}
 
-.thumb:hover img {
-    
-    transform: scale(1.1);
-    transition-duration: 0.6s;
-}
-
-/*
-***************************************************************
-*
-* Sidebar
-*
-***************************************************************
-*/
 
 .cb-post-widget .post-title h4 {
     
@@ -185,7 +262,6 @@ h6 {
     position: relative;
 }
 
-$widget_title_height: 35px;
 
 .sidebar-layout-two .widget:first-child {
     
@@ -249,16 +325,75 @@ $widget_title_height: 35px;
 }
 
 
+.cb-post-widget .post-title h4 {
+
+    margin-bottom: 10px;
+}
+
 
 /*
-***************************************************************
-*
-* Footer
-*
-***************************************************************
+====================================
+=
+= Blog post list
+=
+==========================
 */
 
-footer .widget .widget-title h3 {
-    
-    font-family: $primary_font;
+.cb-post-bricks .post-title h3 {
+
+    font-size: 22px;
+}
+
+.cb-post-bricks .post-title h3,
+.cb-big-posts .cb-post-box .post-title h3 {
+
+    margin-bottom: 15px;
+}
+
+
+/*
+====================================
+=
+= Woocommerce
+=
+==========================
+*/
+
+
+
+.woocommerce div.product .product_title, 
+.cb-woocommerce-products ul.products li h2, 
+.woocommerce ul.products li.product .woocommerce-loop-category__title, 
+.woocommerce ul.products li.product .woocommerce-loop-product__title, 
+.woocommerce ul.products li.product h3,
+.woocommerce-Tabs-panel h2,
+.woocommerce .related.products h2,
+.woocommerce-page .cart_totals h2,
+.woocommerce-billing-fields h3,
+#order_review_heading,
+.woocommerce-order-details h2,
+.woocommerce-column--billing-address h2,
+.woocommerce-column--shipping-address h2,
+.woocommerce-MyAccount-content h2,
+.woocommerce-MyAccount-content h3 {
+
+    text-transform:uppercase;
+}
+
+.cb-woocommerce-products ul.products li h2, 
+.woocommerce ul.products li.product .woocommerce-loop-category__title, 
+.woocommerce ul.products li.product .woocommerce-loop-product__title, 
+.woocommerce ul.products li.product h3 {
+
+    font-size: 16px;
+}
+
+body.postid-4901 .tab-menu-wrap ul li:first-child {
+
+    display:none;
+}
+
+body.postid-4901 #tab1 {
+
+    display:none;
 }

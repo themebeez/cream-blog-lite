@@ -189,7 +189,7 @@ a:hover,
 .post-title h4 {
     
     font-weight: bold;
-    text-transform: inherit;
+    text-transform: uppercase;
     margin-bottom: 0px;
 }
 
@@ -232,9 +232,7 @@ ul.post-categories {
 .post-page-entry .page-title h2, 
 .post-page-entry .page-title h3 {
     
-    text-transform: inherit;
     font-weight: bold;
-    margin-bottom: 5px;
 }
 
 .cb-editor-contents-entry {
@@ -406,24 +404,21 @@ ul.post-categories {
 
 .cb-pagination {
     
-    text-align: center;
     margin-bottom: 0px;
 }
 
+.cb-pagination .pagi-style-1 .nav-links span.current {
+
+    border:none;
+}
 
 
 /* Home Page Widgets */
+
+
 .section-title {
 
-    padding: 0px; 
-    margin-bottom: 30px;
-}
-
-.section-title h2 {
-
-    text-transform: inherit;
-    border-left: 10px solid $primary_color;
-    padding: 10px 15px 5px;
+    border-left-color:$primary_color;
 }
 
 .section-title h2::after {
@@ -453,6 +448,7 @@ aside#secondary {
 .widget .widget-title h3 {
     
     margin-bottom: 15px;
+    font-weight:500;
 }
 
 aside .widget {
@@ -467,6 +463,7 @@ aside .widget:last-child {
 
 
 /* Footer CSS */
+
 footer .cb-midfooter {
     
     padding-top: 40px;
@@ -487,7 +484,6 @@ footer .widget .widget-title h3 {
 
 footer .widget .widget-title h3::after {
     
-    // display: none;
     left: 0;
     right: 0;
     top: auto;
@@ -500,162 +496,3 @@ footer .widget .widget-title h3::after {
     border-radius: 0px;
 }
 
-
-/* Woocommerce CSS */
-
-/* .woocommerce ul.products li.product .price del,
-.woocommerce div.product p.price del, 
-.woocommerce div.product span.price del {
-    
-    margin-right: 5px;
-}
-
-.woocommerce ul.products li.product .button {
-    
-    margin-top: 10px;
-}
-
-.woocommerce nav.woocommerce-pagination {
-    
-    margin-bottom: 0px;
-}
-
-.woocommerce nav.woocommerce-pagination ul {
-    
-    text-align: center;
-}
-
-.woocommerce div.product div.summary,
-.woocommerce div.product div.images.woocommerce-product-gallery {
-    
-    margin: 0px;
-}
-
-.product_meta span.sku_wrapper,
-.product_meta span.posted_in,
-.product_meta span.tagged_as {
-    
-    display: block;
-    margin-bottom: 10px;
-}
-
-.product_meta span.sku_wrapper .sku {
-    
-    margin-left: 5px;
-}
-
-.product_meta span.posted_in a:first-child {
-    
-    margin-left: 5px;
-}
-
-.product_meta span.tagged_as a:first-child {
-    
-    margin-left: 5px;
-}
-
-.woocommerce-tabs.wc-tabs-wrapper {
-    
-    padding: 40px 0px;
-}
-
-.woocommerce div.product .woocommerce-tabs ul.tabs {
-    
-    padding: 0px;
-    border-left: 1px solid #eeeeee;
-    border-top-left-radius: 5px;
-    margin-bottom: 0px;
-}
-
-.woocommerce div.product .woocommerce-tabs ul.tabs::before {
-    
-    border: none;
-}
-
-.woocommerce div.product .woocommerce-tabs ul.tabs li::after {
-    
-    border-width: 0;
-    right: 0;
-}
-
-.woocommerce-Tabs-panel h2 {
-    
-    margin-bottom: 15px;
-}
-
-.woocommerce #reviews #comments {
-    
-    margin-top: 0px;
-}
-
-.woocommerce #reviews #comments {
-    
-    margin-bottom: 15px;
-}
-
-.woocommerce #review_form #respond p {
-    
-    margin-bottom: 0px;
-}
-
-.woocommerce div.product .woocommerce-tabs .panel {
-    
-    padding: 20px 30px 20px;
-    margin: 0px;
-    background-color: #f5f5f5;
-}
-
-.woocommerce .related.products h2 {
-    
-    margin-bottom: 30px;
-}
-
-.woocommerce .related > h2 {
-    
-    text-transform: uppercase;
-    border-left: 5px solid $primary_color;
-    padding: 5px 15px 5px;
-}
-
-.woocommerce .related > h2::after {
-    
-    // display: none;
-    left: 0;
-    right: 0;
-    top: auto;
-    bottom: 0;
-    height: 0px;
-    width: 150px;
-    background: #FF627D;
-    opacity: 1;
-    z-index: 1;
-    border-radius: 0px;
-}
-
-.woocommerce ul.products li.product, 
-.woocommerce-page ul.products li.product {
-    
-    margin-bottom: 30px;
-}
-
-.woocommerce-error::before, 
-.woocommerce-info::before, 
-.woocommerce-message::before {
-    
-    position: relative;
-    margin-right: 15px;
-    top: unset;
-    left: unset;
-}
-
-.woocommerce-error, 
-.woocommerce-info, 
-.woocommerce-message {
-    
-    padding: 15px 30px;
-}
-
-.woocommerce-error::before {
-    
-    top: 15px;
-} */

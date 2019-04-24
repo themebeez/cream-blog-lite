@@ -88,13 +88,18 @@ if ( !function_exists( 'cream_blog_lite_fonts_url' ) ) {
         $subsets = 'latin,latin-ext';
 
         /* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
-        if ('off' !== _x('on', 'Lato font: on or off', 'cream-blog-lite')) {
-            $fonts[] = 'Lato:400,400i,700,700i,900,900i';
+        if ('off' !== _x('on', 'Poppins font: on or off', 'cream-blog-lite')) {
+            $fonts[] = 'Poppins:400,400i,500,600,700,700i,900,900i';
         }
 
         /* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
-        if ('off' !== _x('on', 'Lora font: on or off', 'cream-blog-lite')) {
-            $fonts[] = 'Lora:400,400i,700,700i';
+        if ('off' !== _x('on', 'Oswald font: on or off', 'cream-blog-lite')) {
+            $fonts[] = 'Oswald:400,500,600,700';
+        }
+
+        /* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
+        if ('off' !== _x('on', 'Pacifico font: on or off', 'cream-blog-lite')) {
+            $fonts[] = 'Pacifico:400';
         }
 
         if ($fonts) {
