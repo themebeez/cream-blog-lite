@@ -202,25 +202,26 @@ if( ! function_exists( 'cream_blog_lite_post_navigation_action' ) ) {
         <nav class="navigation post-navigation" role="navigation">
             <h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'cream-blog-lite' ); ?></h2>
             <div class="nav-links">
-                <?php
-                if( !empty( $previous_post ) ) {
-                    ?>
-                    <div class="previous-nav">
+                <div class="previous-nav">
+                    <?php
+                    if( !empty( $previous_post ) ) {
+                        ?>
                         <div class="prev-icon"><i class="feather icon-arrow-left"></i><?php esc_html_e( 'Prev Post', 'cream-blog-lite' ); ?></div>
                         <a href="<?php echo esc_url( get_permalink( $previous_post->ID ) ); ?>" rel="prev"><?php echo esc_html( $previous_post->post_title ); ?></a>
-                    </div>
-                    <?php
-                }
-
-                if( !empty( $next_post ) ) {
+                        <?php
+                    }
                     ?>
-                    <div class="next-nav">
+                </div>                  
+                <div class="next-nav">
+                    <?php
+                    if( !empty( $next_post ) ) {
+                        ?>
                         <div class="next-icon"><?php esc_html_e( 'Next Post', 'cream-blog-lite' ); ?><i class="feather icon-arrow-right"></i></div>
                         <a href="<?php echo esc_url( get_permalink( $next_post->ID ) ); ?>" rel="next"><?php echo esc_html( $next_post->post_title ); ?></a>
-                    </div>
-                    <?php
-                }
-                ?>
+                        <?php
+                    }
+                    ?>
+                </div>
             </div>
         </nav>
         <?php
@@ -239,7 +240,7 @@ if( ! function_exists( 'cream_blog_lite_widgets_init' ) ) {
 
     function cream_blog_lite_widgets_init() {
 
-        register_widget( 'Cream_Blog_Lite_Post_Widget' );
+        register_widget( 'Cream_Blog_Lite_Category_Post_Widget' );
     }
 }
 add_action( 'widgets_init', 'cream_blog_lite_widgets_init' );
@@ -278,6 +279,7 @@ if( ! function_exists( 'cream_blog_lte_customizer_register' ) ) {
 }
 add_action( 'customize_register', 'cream_blog_lte_customizer_register', 20 );
 
+
 /**
  * Active callback function for child banner/slider
  */
@@ -293,8 +295,40 @@ if( ! function_exists( 'cream_blog_lite_is_slider_active' ) ) {
     }
 }
 
+/**
+ * Dynamic css
+ */
+if( ! function_exists( 'cream_blog_lite_dynamic_css' ) ) {
+
+    function cream_blog_lite_dynamic_css() {
+
+        $primary_color = cream_blog_get_option( 'cream_blog_theme_color' );
+        ?>
+        <style>
+            <?php
+            if( !empty( $primary_color ) ) {
+                ?>
+                .header-style-5 .cb-navigation-main-outer, .header-style-3 .cb-navigation-main-outer, .is-sticky #cb-stickhead, ul.post-categories li a, .widget .widget-title h3, #toTop, .calendar_wrap caption, #header-search input[type="submit"], .search-box input[type="submit"], .widget_product_search input[type="submit"], .widget_search input[type="submit"], .cb-pagination .pagi-style-1 .nav-links span.current, .cb-pagination .pagi-style-2 .nav-links span.current, #comments form input[type="submit"], .metas-list li.posted-date::before, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce .wc-forward, .woocommerce a.added_to_cart, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce nav.woocommerce-pagination ul li span.current, .widget_product_search button, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .post-tags a, .jetpack_subscription_widget input[type="submit"]:hover, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .cb-author-widget .author-bio a:after,
+                .sidebar-layout-two .widget .widget-title {
+
+                    background-color: <?php echo esc_attr( $primary_color ); ?>;
+                }
+
+                footer .widget .widget-title h3,
+                .section-title {
+                    border-left-color: <?php echo esc_attr( $primary_color ); ?>;
+                }
+                <?php
+            }
+            ?>
+        </style>
+        <?php
+    }
+}
+add_action( 'wp_head', 'cream_blog_lite_dynamic_css' );
+
 
 /**
  * Load Custom Post Widget
  */
-require get_stylesheet_directory() . '/widgets/cream-blog-lite-post-widget.php';
+require get_stylesheet_directory() . '/widgets/cream-blog-lite-category-post-widget.php';

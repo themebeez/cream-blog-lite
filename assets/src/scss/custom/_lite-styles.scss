@@ -110,26 +110,9 @@ a.btn-general {
     margin: 0px 0px 15px;
 }
 
-.metas-list li.posted-date::before {
-
-    display:none;
-}
-
-.metas-list li.posted-date {
-
-    padding-left: 5px;
-}
-
 ul.post-categories {
     
     margin-bottom: 15px;
-}
-
-.posted-by a::before,
-.posted-date a::before {
-    
-    content: '-';
-    margin-right: 5px;
 }
  
 .thumb img {
