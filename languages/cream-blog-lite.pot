@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cream Blog Lite 1.0.0\n"
 "Report-Msgid-Bugs-To: https://themebeez.com/support\n"
-"POT-Creation-Date: 2019-04-23 09:09:28+00:00\n"
+"POT-Creation-Date: 2019-04-25 09:12:15+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,23 +22,23 @@ msgstr ""
 "e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural;\n"
 "X-Textdomain-Support: yes\n"
 
-#: functions.php:198
+#: functions.php:203
 msgid "Post navigation"
 msgstr ""
 
-#: functions.php:204
+#: functions.php:209
 msgid "Prev Post"
 msgstr ""
 
-#: functions.php:213
+#: functions.php:219
 msgid "Next Post"
 msgstr ""
 
-#: functions.php:265
+#: functions.php:271
 msgid "Enable Child Banner/Slider"
 msgstr ""
 
-#: functions.php:266
+#: functions.php:272
 msgid "On enabling this option, banner/slider of parent theme will not be shown."
 msgstr ""
 
@@ -46,31 +46,31 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: widgets/cream-blog-lite-post-widget.php:14
-msgid "CBL: Post Widget"
+#: widgets/cream-blog-lite-category-post-widget.php:14
+msgid "CB: Post Widget"
 msgstr ""
 
-#: widgets/cream-blog-lite-post-widget.php:17
+#: widgets/cream-blog-lite-category-post-widget.php:17
 msgid "Displays Posts."
 msgstr ""
 
-#: widgets/cream-blog-lite-post-widget.php:132
+#: widgets/cream-blog-lite-category-post-widget.php:132
 msgid "Title"
 msgstr ""
 
-#: widgets/cream-blog-lite-post-widget.php:138
+#: widgets/cream-blog-lite-category-post-widget.php:138
 msgid "Select Category: "
 msgstr ""
 
-#: widgets/cream-blog-lite-post-widget.php:148
+#: widgets/cream-blog-lite-category-post-widget.php:148
 msgid "none"
 msgstr ""
 
-#: widgets/cream-blog-lite-post-widget.php:148
+#: widgets/cream-blog-lite-category-post-widget.php:148
 msgid "Select Category"
 msgstr ""
 
-#: widgets/cream-blog-lite-post-widget.php:163
+#: widgets/cream-blog-lite-category-post-widget.php:163
 msgid "No of Posts"
 msgstr ""
 
@@ -104,7 +104,7 @@ msgstr ""
 #. translators: If there are characters in your language that are not supported
 #. by Merriweather, translate this to 'off'. Do not translate into your own
 #. language.
-msgctxt "Lato font: on or off"
+msgctxt "Poppins font: on or off"
 msgid "on"
 msgstr ""
 
@@ -112,6 +112,14 @@ msgstr ""
 #. translators: If there are characters in your language that are not supported
 #. by Merriweather, translate this to 'off'. Do not translate into your own
 #. language.
-msgctxt "Lora font: on or off"
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:101
+#. translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Pacifico font: on or off"
 msgid "on"
 msgstr ""

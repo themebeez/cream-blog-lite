@@ -1,17 +1,17 @@
 <?php
 /**
- * Custom Post Widget Class For Sidebar
+ * Custom Category Post Widget Class For Sidebar
  * 
  * @package Cream_Blog_Lite
  */
 
-class Cream_Blog_Lite_Post_Widget extends WP_Widget {
+class Cream_Blog_Lite_Category_Post_Widget extends WP_Widget {
  
     function __construct() { 
 
         parent::__construct( 
-        'cream-blog-lite-post-widget',  // Base ID
-            esc_html__( 'CBL: Post Widget', 'cream-blog-lite' ),   // Name
+        'cream-blog-lite-category-post-widget',  // Base ID
+            esc_html__( 'CB: Post Widget', 'cream-blog-lite' ),   // Name
             array(
                 'classname' => 'cb-post-widget cbl-post-widget',
                 'description' => esc_html__( 'Displays Posts.', 'cream-blog-lite' ), 
