@@ -114,6 +114,12 @@ ul.post-categories {
     
     margin-bottom: 15px;
 }
+
+.posted-by a::before {
+
+    content:'';
+    display:none;
+}
  
 .thumb img {
     
