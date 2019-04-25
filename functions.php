@@ -308,6 +308,16 @@ if( ! function_exists( 'cream_blog_lite_dynamic_css' ) ) {
             <?php
             if( !empty( $primary_color ) ) {
                 ?>
+
+
+                .metas-list li span, 
+                .metas-list li a, 
+                .cb-post-widget .metas .metas-list li span, 
+                .cb-post-widget .metas .metas-list li a {
+
+                    color:<?php echo esc_attr( $primary_color ); ?>;
+                }
+
                 .header-style-5 .cb-navigation-main-outer, .header-style-3 .cb-navigation-main-outer, .is-sticky #cb-stickhead, ul.post-categories li a, .widget .widget-title h3, #toTop, .calendar_wrap caption, #header-search input[type="submit"], .search-box input[type="submit"], .widget_product_search input[type="submit"], .widget_search input[type="submit"], .cb-pagination .pagi-style-1 .nav-links span.current, .cb-pagination .pagi-style-2 .nav-links span.current, #comments form input[type="submit"], .metas-list li.posted-date::before, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce .wc-forward, .woocommerce a.added_to_cart, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce nav.woocommerce-pagination ul li span.current, .widget_product_search button, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .post-tags a, .jetpack_subscription_widget input[type="submit"]:hover, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .cb-author-widget .author-bio a:after,
                 .sidebar-layout-two .widget .widget-title {
 
