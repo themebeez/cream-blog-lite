@@ -1,0 +1,50 @@
+
+@media ( max-width: 1050px ) {
+
+	.main-navigation>ul>li>a {
+
+		text-transform:uppercase;
+	}
+
+	.header-style-3 .site-branding-holder {
+
+		padding:60px 0;
+	}
+}
+
+
+@media ( max-width:991px ) {
+
+	.cb-mid-wrap {
+
+		margin-bottom: 40px;
+	}
+}
+
+
+@media (max-width: 768px) {
+
+	aside.secondary .widget {
+
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+
+@media ( max-width:600px ) {
+
+	#cb-banner-style-9 .item .thumb {
+
+		height:350px;
+	}
+}
+
+
+@media ( max-width:500px ) {
+
+	.header-style-3 .site-branding-holder {
+
+		padding:40px 0;
+	}
+} 
