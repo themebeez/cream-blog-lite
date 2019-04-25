@@ -16,7 +16,10 @@
     <?php 
     cream_blog_post_meta( true, true, true ); 
 
-    cream_blog_post_thumbnail();
+    $show_featured_image = cream_blog_get_option( 'cream_blog_display_featured_image_post' ); 
+    if( $show_featured_image == true ) {
+        cream_blog_post_thumbnail(); 
+    }
     ?>
 
     <div class="cb-editor-contents-entry">
