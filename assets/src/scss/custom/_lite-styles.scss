@@ -142,6 +142,11 @@ ul.post-categories {
     margin-bottom: 30px;
 }
 
+.cb-pagination {
+
+    margin-bottom: 0;
+}
+
 .cb-pagination .pagi-style-1 .nav-links span.current {
 
     border:none;
@@ -200,7 +205,7 @@ aside .widget:last-child {
 
 .cb-mid-wrap {
 
-    margin-bottom: 0;
+    margin-bottom: 40px;
 }
 
 
@@ -451,7 +456,7 @@ a.btn-general:hover,
 #cb-banner-style-9 .item .thumb {
     
     padding-bottom: 0px;
-    height: 450px;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -511,6 +516,11 @@ a.btn-general:hover,
 ==========================
 */
 
+.cb-author-widget .author-name h4 {
+
+    text-transform:uppercase;
+    font-size: 22px;
+}
 
 .cb-post-widget .post-title h4 {
     
@@ -590,6 +600,11 @@ a.btn-general:hover,
 .cb-post-widget .post-title h4 {
 
     margin-bottom: 10px;
+}
+
+.sidebar-layout-two .cb-post-widget .cb-post-box:last-child {
+
+    margin-bottom: 0;
 }
 
 
