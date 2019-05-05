@@ -4,7 +4,7 @@ Contributors: themebeez
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, left-sidebar, right-sidebar, news, blog, custom-header, theme-options, footer-widgets, sticky-post, grid-layout, two-columns, three-columns
 Requires at least: 4.8.0
 Requires PHP: 5.6
-Tested up to: 5.1.1
+Tested up to: 5.1.2
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -27,24 +27,26 @@ Cream Blog is distributed under the terms of the GNU GPLv2 or later.
 
 == Screenshots ==
 
-City view
+White table
 License: CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0 - CC0)
-Source: https://pxhere.com/en/photo/36771
+Source: https://pxhere.com/en/photo/1445341
 
 
-Women smoking
+Smiling lady
 License: CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0 - CC0)
-Source: https://pxhere.com/en/photo/978164
+Source: https://pxhere.com/en/photo/1389875
 
 
-Women Smiling 
+Romantic couple
 License: CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0 - CC0)
-Source: https://pxhere.com/en/photo/775024
+Source: https://pxhere.com/en/photo/807588
 
 
-Man & Women looking each others
+Family at beach
 License: CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0 - CC0)
-Source: https://pxhere.com/en/photo/1269390
+https://pxhere.com/en/photo/1364702
+
+
 
 
 == Installation ==
@@ -57,6 +59,6 @@ Source: https://pxhere.com/en/photo/1269390
 == Changelog ==
 
 
-= 1.0.0 - 28, April 2019 =
+= 1.0.0 - 6, May 2019 =
 
 - Initial release
