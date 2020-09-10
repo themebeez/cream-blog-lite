@@ -18,7 +18,7 @@
             autoplay: true,
             autoplayTimeout: 8000,
             autoplayHoverPause: true,
-            navText: ["<i class='feather icon-chevrons-left'></i>", "<i class='feather icon-chevrons-right'></i>"],
+            navText: ["<i class='cb cb-chevron-left'></i>", "<i class='cb cb-chevron-right'></i>"],
             responsive: {
                 0: {
                     items: 1

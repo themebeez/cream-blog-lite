@@ -2,10 +2,10 @@
 
 Contributors: themebeez
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, left-sidebar, right-sidebar, news, blog, custom-header, theme-options, footer-widgets, sticky-post, grid-layout, two-columns, three-columns
-Requires at least: 4.8.0
-Requires PHP: 5.6
-Tested up to: 5.1.2
-Stable tag: 1.0.0
+Requires at least: 5.0.0
+Requires PHP: 7.0.0
+Tested up to: 5.5.1
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,10 @@ https://pxhere.com/en/photo/1364702
 
 == Changelog ==
 
+= 1.0.1 - 10, Sept 2020 =
+
+- Fix: Font size
+- Fix: Banner arrow
 
 = 1.0.0 - 6, May 2019 =
 

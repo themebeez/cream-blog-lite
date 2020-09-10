@@ -88,8 +88,8 @@ if ( !function_exists( 'cream_blog_lite_fonts_url' ) ) {
         $subsets = 'latin,latin-ext';
 
         /* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
-        if ('off' !== _x('on', 'Poppins font: on or off', 'cream-blog-lite')) {
-            $fonts[] = 'Poppins:400,400i,500,600,700,700i,900,900i';
+        if ('off' !== _x('on', 'DM Sans font: on or off', 'cream-blog-lite')) {
+            $fonts[] = 'DM+Sans:400,400i,500,700,700i';
         }
 
         /* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
