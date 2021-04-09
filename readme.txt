@@ -4,8 +4,8 @@ Contributors: themebeez
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, left-sidebar, right-sidebar, news, blog, custom-header, theme-options, footer-widgets, sticky-post, grid-layout, two-columns, three-columns
 Requires at least: 5.0.0
 Requires PHP: 7.0.0
-Tested up to: 5.5.1
-Stable tag: 1.0.1
+Tested up to: 5.7
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,10 +18,10 @@ Cream Blog Lite is a child theme of WordPress theme, Cream Blog. Cream Blog Lite
 
 == License ==
 
-Cream Blog Lite WordPress Theme, Copyright (C) 2019, themebeez.
+Cream Blog Lite WordPress Theme, Copyright (C) 2021, themebeez.
 Cream Blog Lite is distributed under the terms of the GNU GPLv2 or later
 
-Cream Blog WordPress Theme, Copyright (C) 2019, themebeez.
+Cream Blog WordPress Theme, Copyright (C) 2021, themebeez.
 Cream Blog is distributed under the terms of the GNU GPLv2 or later.
 
 
@@ -57,6 +57,10 @@ https://pxhere.com/en/photo/1364702
 
 
 == Changelog ==
+
+= 1.0.2 - 9 April, 2021 =
+
+- HTML tag for post title in single changed to <h1>
 
 = 1.0.1 - 10, Sept 2020 =
 
